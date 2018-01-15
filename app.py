@@ -43,4 +43,4 @@ def linear():
         print("W: %s b: %s loss: %s"%(curr_W, curr_b, curr_loss))
         return jsonify({'result':"W: %s b: %s loss: %s"%(curr_W, curr_b, curr_loss)})
 if __name__ == "__main__":
-        app.run(host='0.0.0.0', port=9000)
+        app.run(host='0.0.0.0', port=5000)
